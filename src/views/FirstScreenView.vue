@@ -1,0 +1,29 @@
+<script setup>
+import NewUserView from '../components/firstScreen/NewUserView.vue'
+import LoginView from '../components/firstScreen/LoginView.vue'
+</script>
+
+<template>
+  <main>
+    <div class="help-btn"></div>
+    <div class="firstScreen-menu">
+      <NewUserView></NewUserView>
+      <LoginView></LoginView>
+    </div>
+  </main>
+</template>
+
+<style scoped>
+.firstScreen-menu {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+.help-btn {
+  background-image: url('data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20%3F%3E%3C%21DOCTYPE%20svg%20%20PUBLIC%20%27-//W3C//DTD%20SVG%201.1//EN%27%20%20%27http%3A//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd%27%20%5B%0A%09%3C%21ENTITY%20stroke_color%20%22%23666666%22%3E%0A%09%3C%21ENTITY%20fill_color%20%22%23ffffff%22%3E%0A%5D%3E%3Csvg%20height%3D%2255px%22%20viewBox%3D%220%200%2055%2055%22%20width%3D%2255px%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%3E%0A%20%3Cg%3E%0A%20%20%3Cpath%20stroke%3D%22%26stroke_color%3B%22%20fill%3D%22%26fill_color%3B%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%223.5%22%20d%3D%22M%2050%2027.625%20C%2050%2039.9681%2039.8431%2050.125%2027.5%2050.125%20C%2015.1569%2050.125%205%2039.9681%205%2027.625%20C%205%2015.2819%2015.1569%205.125%2027.5%205.125%20C%2039.8431%205.125%2050%2015.2819%2050%2027.625%20Z%20%22%20/%3E%0A%20%20%3Cpath%20d%3D%22M%2023.956%2027.167%20C%2023.956%2025.546%2025.756%2025.277%2027.601%2024.781%20C%2029.401%2024.286%2031.201%2023.566%2031.201%2020.956%20C%2031.201%2018.976%2029.356%2017.536%2027.467%2017.536%20C%2023.687%2017.536%2023.102%2021.991%2020.221%2021.991%20C%2018.601%2021.991%2017.476%2020.731%2017.476%2018.751%20C%2017.476%2014.025%2023.416%2011.326%2027.467%2011.326%20C%2033.273%2011.326%2038.223%2014.926%2038.223%2020.957%20C%2038.223%2025.952%2035.073%2028.878%2030.438%2030.048%20L%2030.438%2031.667%20C%2030.438%2033.468%2029.087%2034.772%2027.197%2034.772%20C%2025.172%2034.772%2023.957%2033.467%2023.957%2031.667%20L%2023.957%2027.167%20Z%20M%2023.686%2040.937%20C%2023.686%2039.002%2025.261%2037.427%2027.196%2037.427%20C%2029.132%2037.427%2030.706%2039.002%2030.706%2040.937%20C%2030.706%2042.873%2029.132%2044.449%2027.196%2044.449%20C%2025.261%2044.448%2023.686%2042.872%2023.686%2040.937%20Z%20%22%20fill%3D%22%26stroke_color%3B%22%20stroke%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%223.5%22%20/%3E%0A%20%3C/g%3E%0A%3C/svg%3E%0A');
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+}
+</style>
