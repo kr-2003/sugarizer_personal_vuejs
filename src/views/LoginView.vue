@@ -4,13 +4,18 @@
       <div class="name-label">Name:</div>
       <loginInput></loginInput>
     </div>
-    <IconButton id="left-button" iconButtonText="Back" iconButtonLink="go-left-icon"></IconButton>
+    <IconButton
+      @click="$router.go(-1)"
+      id="left-button"
+      iconButtonText="Back"
+      iconButtonLink="go-left-icon"
+    ></IconButton>
     <IconButton id="right-button" iconButtonText="Next" iconButtonLink="go-right-icon"></IconButton>
   </div>
 </template>
 
 <script setup>
-import IconButton from '../components/IconButton.vue';
+import IconButton from '../components/IconButton.vue'
 import loginInput from '../components/loginScreen/loginInput.vue'
 </script>
 

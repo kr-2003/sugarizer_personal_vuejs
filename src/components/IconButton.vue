@@ -54,10 +54,15 @@ export default {
   margin-left: 6px;
   margin-top: 6px;
 }
+
+.icon-button-icon:hover {
+  background-color: #d5d5d5;
+  border-radius: 5px;
+}
 #go-left-icon {
   background-image: url('../assets/icons/go-left.svg');
 }
-#go-right-icon{
-    background-image: url('../assets/icons/go-right.svg');
+#go-right-icon {
+  background-image: url('../assets/icons/go-right.svg');
 }
 </style>

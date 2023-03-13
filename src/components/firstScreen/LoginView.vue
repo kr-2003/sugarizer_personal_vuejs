@@ -1,7 +1,7 @@
 <template>
     <div id="login-icon">
         <img id="login-icon" src="../../assets/icons/login.svg"/>
-        <p class="icon-label">Login</p>
+        <p class="icon-label">{{ $t('Login') }}</p>
     </div>
     
 </template>
